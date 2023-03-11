@@ -6,8 +6,8 @@ import cv2
 # создание анализатора аргументов и проведение анализа аргументов
 ap = argparse.ArgumentParser()
 
-ap.add_argument("-p", "--puzzle", required = True, help = "C:/Users/Mi/PycharmProjects/pythonProject/puzzle.png")
-ap.add_argument("-w", "--waldo", required = True, help = "C:/Users/Mi/PycharmProjects/pythonProject/waldo.png")
+ap.add_argument("-p", "--puzzle", required = True, help = "your way to png")
+ap.add_argument("-w", "--waldo", required = True, help = "your way to png")
 
 args = vars(ap.parse_args())
 
